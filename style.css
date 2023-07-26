@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+  * {
+      margin: 0%;
+      padding: 0%;
+  }
+
+  body {
+      background-color: var(--cor-principal);
+  }
+
+  :root {
+      --cor-cabecalho: #323E52;
+      --cor-principal: #7E94EA;
+      --cor-secundaria: #88A47C;
+      --cor-rodape: #FDE3D9;
+      --cor-letra: #1C315E;
+  }
+
+  .botao {
+      text-decoration: none;
+      color: white;
+  }
+
+  .imagem_home {
+      width: 1920px;
+      height: 143px;
+  }
+
+  .cabecalho {
+      font-size: 35px;
+      padding: 2% 0 0 0%;
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      height: 80px;
+      background-color: var(--cor-cabecalho);
+      font-family: 'Varela Round', sans-serif;
+      color: white;
+  }
+
+  p {
+      font-family: 'Varela Round', sans-serif;
+      color: var(--cor-letra);
+  }
+
+  .titulo1, .titulo2, .titulo {
+      font-family: 'Varela Round', sans-serif;
+      color: var(--cor-letra);
+      padding: 1%;
+      width: 615px;
+      display: flex;
+      font-size: 34px;
+      flex-direction: center;
+      align-items: center;
+      gap: 40px;
+  }
+
+  a {
+      color: var(--cor-letra);
+  }
+
+  p {
+
+      padding: 0%;
+      width: 635px;
+      height: 70px;
+      display: flex;
+      gap: 0px;
+      align-items: center;
+      font-size: 22px;
+  }
+
+  .imagem_principal {
+      height: 512px;
+      width: 512px;
+      margin-left: 40px;
+      margin-right: 10px;
+      border-radius: 28px
+  }
+
+  .texto1, .texto2, .titulo1, .texto2, .titulo, .sobre{
+      height: 50px;
+      gap: 800px;
+  }
+
+  .container {
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      height: 100px;
+  }
+
+  .imagem11, .imagem12{
+      display: flexbox;
+      justify-content: space-between;
+      gap: 20px;
+      height: 300px;
+      padding: 1% 0 0 1%;
+      border-radius: 10%;
+      margin-bottom: 20px;
+  }
+  .imagem21, .imagem22 {
+    display: flexbox;
+      justify-content: space-between;
+      gap: 20px;
+      height: 300px;
+      padding: 1% 0 0 1%;
+      border-radius: 10%;
+      margin-top: 10px;
+      margin-bottom: 50px;
+  }
+
+  .titulo1, .titulo2, .titulo {
+    justify-content: center;
+  }
+
+  .texto1, .texto2, .sobre {
+    text-align: center;
+  }
+
+  .titulo2{
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.image11, .imagem12{
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.sobre_principal{
+    padding: 3%;
+      width: 635px;
+      height: 70px;
+      display: flex;
+      gap: 0px;
+      align-items: center;
+      font-size: 22px;
+    
+}
+.rodape{
+    padding: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: auto; 
+}
+
+.footer-1 {
+    margin-top: 350px;
+    font-size: 40px;
+    color: white;
+    background-color: #323E52;
+    font-family: 'Varela Round', sans-serif;
+    height: 90px;
+}
+
+.rodape-letra {
+    justify-content: center;
+    margin-left: 550px;
+    padding: 28px;
+}
+
+.rodape-letra-2{
+    justify-content: center;
+    margin-left: 550px;
+    padding: 28px;
+}
+
+.footer-2 {
+    font-size: 40px;
+    color: white;
+    background-color: #323E52;
+    font-family: 'Varela Round', sans-serif;
+    height: 90px;
+}
+
